@@ -1,9 +1,13 @@
+import NavBar from './components/navbar';
 import SlidingCards from './components/slidingCards';
-import './App.css';
+import './index.css';
 
 function App() {
   return (
-    <SlidingCards/>
+    <div className=' w-full h-screen bg-back'>
+      <NavBar/>
+      <SlidingCards/>
+    </div>
   );
 }
 
