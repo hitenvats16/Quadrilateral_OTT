@@ -5,7 +5,7 @@ import './index.css';
 
 function App() {
   return (
-    <div className=' w-full h-screen bg-back'>
+    <div className=' w-full h-auto bg-back'>
       <NavBar />
       <SlidingCards />
       <Originals/>
