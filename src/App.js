@@ -1,14 +1,10 @@
-import NavBar from './components/navbar';
-import Originals from './components/originals';
-import SlidingCards from './components/slidingCards';
 import './index.css';
+import CustomRoutes from './config/CustomRoutes';
 
 function App() {
   return (
     <div className=' w-full h-auto bg-back'>
-      <NavBar />
-      <SlidingCards />
-      <Originals/>
+      <CustomRoutes/>
     </div>
   );
 }
