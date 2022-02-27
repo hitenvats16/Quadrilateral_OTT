@@ -9,7 +9,7 @@ function MovieCard(props){
     },[]);
 
     return(
-        <img src={poster} className=' w-56 h-64'/>
+        <img src={require('../assets/Trending/trending1.jpg')} className=' w-56 h-72 py-5 rounded-md md:w-64 md:h-96 mx-2'/>
     );
 }
 
