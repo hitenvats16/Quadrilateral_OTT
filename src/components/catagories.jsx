@@ -4,7 +4,7 @@ import '../index.css';
 export default function Catagory() {
     return (
         <div className='w-full h-max flex justify-center items-center flex-col xl:px-80' id='frame'>
-            <h1 className='text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-700 text-4xl font-bold px-7 py-2 mb-5 w-full' data-aos='fade-right'>CATAGORY</h1>
+            <h1 className='text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-700 text-4xl font-bold px-7 py-2 mb-5 w-full' data-aos='fade-right'>CATEGORY</h1>
             <div className='w-max h-ful grid grid-cols-1 grid-rows-6 gap-2 mb-5 md:grid-cols-2 md:grid-rows-3 xl:grid-cols-3 xl:grid-rows-2' id="grid">
                 <Link to='/explore' data-aos='fade-up'>
                     <div className="w-80 h-32 bg-cover bg-adventure rounded-md xl:w-96 xl:hover:scale-y-110 xl:hover:duration-300 xl:hover:ease-in-out">
