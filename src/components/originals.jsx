@@ -8,7 +8,7 @@ const Originals = () => {
                 <div className='w-full h-full m-2 p-4 backdrop-blur-md rounded-md md:p-8 '>
                     <img src={require('../assets/originLogo.png')} className='w-32 mb-10 lg:w-64' alt='' />
                     <h1 className='text-[#8236d4] text-xl my-2 font-bold lg:text-5xl tracking-wide lg:mb-5'>LA LA LAND</h1>
-                    <p className='text-[#b39cca] text-sm lg:mb-10' >The story of aspiring actress Mia and dedicated jazz musician Sebastian, who struggle to make ends meet while pursuing their dreams in a city known for destroying hopes and breaking hearts.</p>
+                    <p className='text-[#b39cca] text-md lg:mb-10 original_font' >The story of aspiring actress Mia and dedicated jazz musician Sebastian, who struggle to make ends meet while pursuing their dreams in a city known for destroying hopes and breaking hearts.</p>
                     <Btn/>
                 </div>
                 <img src={require('../assets/original.png')} alt='' className='hidden lg:flex lg:w-[800px] aspect-video' />

@@ -19,8 +19,12 @@ module.exports = {
         'horror': "url('./assets/genre/horror.jpg')",
         'romantic': "url('./assets/genre/romantic.jpg')",
         'scifi': "url('./assets/genre/Scifi.jpeg')",
-      }
+        'creator': "url('./assets/creators_back.jpg')",
+      },
     },
+    fontFamily: {
+      original: ['Source Sans Pro', 'sans-serif'],
+    }
   },
   plugins: [],
 }

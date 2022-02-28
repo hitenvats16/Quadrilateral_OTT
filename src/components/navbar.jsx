@@ -38,7 +38,7 @@ const NavBar = () => {
                     <BiMenu color='#9ca3af' className='lg:hidden' size={40} onClick={() => { ToggleSlide() }} />
                 </div>
             </nav>
-            <div className=' z-50 -translate-x-full transition duration-200 ease-in-out w-full h-screen absolute top-0 right-0 backdrop-blur-3xl bg-slate-800 bg-opacity-20 p-12 flex justify-center items-center flex-col lg:hidden' id="SlidingNav">
+            <div className=' overflow-hidden z-50 -translate-x-full transition duration-200 ease-in-out w-full h-screen absolute top-0 right-0 backdrop-blur-3xl bg-slate-800 bg-opacity-20 p-12 flex justify-center items-center flex-col lg:hidden' id="SlidingNav">
                 <ImCross color='white' size={30} className=' m-10 absolute top-0 left-0' onClick={() => { ToggleSlide() }} />
                 <div className='py-1.5 border-b mx-5 border-[#9ca3af] justify-between flex mb-16'>
                     <input placeholder='What you want?' className='appearance-none bg-transparent outline-none text-white' />
