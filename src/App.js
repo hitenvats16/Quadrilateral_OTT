@@ -8,6 +8,7 @@ function App() {
 
   useEffect(() => {
     Aos.init({ duration: 1500 });
+    window.scrollTo(0, 0);
   })
 
   return (
