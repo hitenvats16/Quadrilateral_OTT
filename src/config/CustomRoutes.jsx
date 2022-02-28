@@ -4,6 +4,7 @@ import Catalog from '../pages/Catalog';
 import CreatorsPage from '../pages/Creator';
 import Detail from '../pages/Detail';
 import Home from '../pages/Home';
+import Sign from '../pages/sign';
 
 const CustomRoutes = () => {
   return (
@@ -12,6 +13,7 @@ const CustomRoutes = () => {
       <Route path={'/explore'} element={<Catalog />} />
       <Route path={'/:id'} element={<Detail />} />
       <Route path={'/creators'} element={<CreatorsPage />} />
+      <Route path={'/sign'} element={<Sign />} />
     </Routes>
   );
 }

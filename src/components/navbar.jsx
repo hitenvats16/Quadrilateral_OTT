@@ -34,7 +34,9 @@ const NavBar = () => {
                         <input placeholder='What you want?' className='appearance-none bg-transparent outline-none text-white' />
                         <BiSearch color='#9ca3af' size={30} />
                     </div>
-                    <button className=' hidden lg:flex font-semibold text-white w-20 py-2 justify-center bg-slate-600 rounded-md bg-gradient-to-r from-[#9625b8] to-[#d307b1]' >Sign In</button>
+                    <Link to='/sign'>
+                        <button className=' hidden lg:flex font-semibold text-white w-20 py-2 justify-center bg-slate-600 rounded-md bg-gradient-to-r from-[#9625b8] to-[#d307b1]' >Sign In</button>
+                    </Link>
                     <BiMenu color='#9ca3af' className='lg:hidden' size={40} onClick={() => { ToggleSlide() }} />
                 </div>
             </nav>
@@ -46,13 +48,13 @@ const NavBar = () => {
                 </div>
                 <ul className='text-white text-center'>
                     <Link to='/'>
-                        <li className='mx-2.5 text-md m-2' onClick={()=>{ToggleSlide()}}>Home</li>
+                        <li className='mx-2.5 text-md m-2' onClick={() => { ToggleSlide() }}>Home</li>
                     </Link>
                     <Link to='/'>
-                        <li className='mx-2.5 text-md m-2' onClick={()=>{ToggleSlide()}}>Trending</li>
+                        <li className='mx-2.5 text-md m-2' onClick={() => { ToggleSlide() }}>Trending</li>
                     </Link>
                     <Link to='/explore'>
-                        <li className='mx-2.5 text-md m-2' onClick={()=>{ToggleSlide()}}>Explore</li>
+                        <li className='mx-2.5 text-md m-2' onClick={() => { ToggleSlide() }}>Explore</li>
                     </Link>
                 </ul>
                 <button className=' m-10 absolute top-0 right-0 flex font-semibold text-white w-20 py-2 justify-center bg-slate-600 rounded-md bg-gradient-to-r from-[#9625b8] sm:to-[#d307b1]' >Sign In</button>
