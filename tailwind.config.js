@@ -13,6 +13,12 @@ module.exports = {
         'pic2': "url('./assets/slidingCards/pic2.png')",
         'pic3': "url('./assets/slidingCards/pic3.png')",
         'origin': "url('./assets/original.png')",
+        'adventure': "url('./assets/genre/1.jpg')",
+        'comedy': "url('./assets/genre/comedy.jpg')",
+        'drama': "url('./assets/genre/drama.jpg')",
+        'horror': "url('./assets/genre/horror.jpg')",
+        'romantic': "url('./assets/genre/romantic.jpg')",
+        'scifi': "url('./assets/genre/Scifi.jpeg')",
       }
     },
   },

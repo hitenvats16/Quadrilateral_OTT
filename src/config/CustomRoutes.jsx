@@ -9,7 +9,7 @@ const CustomRoutes = () => {
   return (
     <Routes>
       <Route path={'/'} element={<Home />} />
-      <Route path={'/:category/search/:keyword'} element={<Catalog />} />
+      <Route path={'/explore'} element={<Catalog />} />
       <Route path={'/:id'} element={<Detail />} />
       <Route path={'/creators'} element={<CreatorsPage />} />
     </Routes>

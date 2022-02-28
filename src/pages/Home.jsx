@@ -1,3 +1,4 @@
+import Catagory from "../components/catagories";
 import Footer from "../components/footer";
 import NavBar from "../components/navbar";
 import Originals from "../components/originals";
@@ -11,6 +12,7 @@ const Home = () => {
             <SlidingCards />
             <Originals />
             <Trending/>
+            <Catagory/>
             <Footer />
         </>
     );
