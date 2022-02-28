@@ -1,6 +1,6 @@
 import '../index.css';
 import { IoMdArrowRoundBack } from 'react-icons/io'
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import MovieDB from '../movieDB';
@@ -21,7 +21,7 @@ function Detail() {
         console.log(params.id);
         for (let i = 0; i < 15; i = i + 1) {
             console.log(i);
-            if (params.id == MovieDB[i].Id) {
+            if (params.id === MovieDB[i].Id) {
                 const movie = MovieDB[i];
                 console.log(movie);
                 setTitle(movie.name);
@@ -31,7 +31,7 @@ function Detail() {
                 setTrailer(movie.trailer_link);
             }
         }
-    });
+    },[params.id]);
 
     return (
         <div className='w-full h-max justify-center items-center bg-white bg-cover xl:h-screen' style={{ backgroundImage: `url(${back})` }}>

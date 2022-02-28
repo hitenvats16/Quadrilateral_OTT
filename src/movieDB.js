@@ -5,7 +5,7 @@ const MovieDB = [
         background_img: 'https://img.hdtoday.tv/xxrz/1200x600/394/77/7d/777d5ff479b422ce058d2fffabbddbd2/777d5ff479b422ce058d2fffabbddbd2.jpg',
         description: 'Stranded at an isolated highway rest stop in the mountains during a blizzard, a college student discovers a kidnapped child hidden in a car belonging to one of the people inside the building, which sets her on a terrifying life-or-death struggle to discover who among them is the kidnapper',
         trailer_link: 'https://youtu.be/GFvupyiNEz0',
-        Id: 1,
+        Id: '1',
     },
     {
         name: 'Restless',
@@ -13,7 +13,7 @@ const MovieDB = [
         background_img: 'https://img.hdtoday.tv/xxrz/1200x600/394/c0/69/c0697986593c9beb1963fc5878fb9b0d/c0697986593c9beb1963fc5878fb9b0d.jpg',
         description: "After going to extremes to cover up an accident, a corrupt cop's life spirals out of control when he starts receiving threats from a mysterious witness",
         trailer_link: 'https://youtu.be/L8tCoWmooRE',
-        Id: 2,
+        Id: '2',
     },
     {
         name: 'West Side Story',
@@ -21,7 +21,7 @@ const MovieDB = [
         background_img: 'https://img.hdtoday.tv/xxrz/1200x600/394/da/a2/daa2ee26a99d56391681248a93b5ea42/daa2ee26a99d56391681248a93b5ea42.jpg',
         description: 'A remake of the 1961 film about two youngsters from rival New York City gangs fall in love, but tensions between their respective friends build toward tragedy',
         trailer_link: 'https://youtu.be/snf7Pdn3Giw',
-        Id: 3,
+        Id: '3',
     },
     {
         name: 'Spider-Man: No Way Home',
@@ -29,7 +29,7 @@ const MovieDB = [
         background_img: 'https://img.hdtoday.tv/xxrz/1200x600/394/86/1e/861ea70e6077eba9986259301abeb6a0/861ea70e6077eba9986259301abeb6a0.jpg',
         description: 'Spider-Man: No Way Home is a 2021 American superhero film based on the Marvel Comics character Spider-Man, co-produced by Columbia Pictures and Marvel Studios and distributed by Sony Pictures Releasing',
         trailer_link: 'https://youtu.be/UV2ZWTSHjSs',
-        Id: 4,
+        Id: '4',
     },
     {
         name: "The King's Man",
@@ -37,7 +37,7 @@ const MovieDB = [
         background_img: 'https://img.hdtoday.tv/xxrz/1200x600/394/55/ed/55ed0ef29c408d486e24c699af78bd20/55ed0ef29c408d486e24c699af78bd20.jpg',
         description: "As a collection of history's worst tyrants and criminal masterminds gather to plot a war to wipe out millions, one man must race against time to stop them",
         trailer_link: 'https://youtu.be/MGoCwNHE4ys',
-        Id: 5,
+        Id: '5',
     },
     {
         name: 'Project Gemini',
@@ -45,7 +45,7 @@ const MovieDB = [
         background_img: 'https://img.hdtoday.tv/xxrz/1200x600/394/82/4f/824ff28ff225cd5924d9f8c4586dc191/824ff28ff225cd5924d9f8c4586dc191.jpg',
         description: 'Astrophysicists pick up a mysterious signal coming from outer space. An expedition sets out to visit this planet to find and inspect the source of the signal',
         trailer_link: 'https://youtu.be/Gi4Pobu1PWw',
-        Id: 6,
+        Id: '6',
     },
     {
         name: 'Scream',
@@ -53,7 +53,7 @@ const MovieDB = [
         background_img: 'https://img.hdtoday.tv/xxrz/1200x600/394/4a/e2/4ae2f6189065ca45cd7b17f65ca8d0c8/4ae2f6189065ca45cd7b17f65ca8d0c8.jpg',
         description: "Twenty-five years after a streak of brutal murders shocked the quiet town of Woodsboro, a new killer has donned the Ghostface mask and begins targeting a group of teenagers to resurrect secrets from the town's deadly past",
         trailer_link: 'https://youtu.be/VYOLMjUXtl4',
-        Id: 7,
+        Id: '7',
     },
     {
         name: 'The 355',
@@ -61,7 +61,7 @@ const MovieDB = [
         background_img: 'https://img.hdtoday.tv/xxrz/1200x600/394/2e/ad/2ead8859420d2887daa5b3a2605ce6ee/2ead8859420d2887daa5b3a2605ce6ee.jpg',
         description: 'A group of top female agents from government agencies around the globe try to stop an organization from acquiring a deadly weapon to send the world into chaos',
         trailer_link: 'https://youtu.be/MFVmUCB10aY',
-        Id: 8,
+        Id: '8',
     },
     {
         name: 'Big Gold Brick',
@@ -69,7 +69,7 @@ const MovieDB = [
         background_img: 'https://img.hdtoday.tv/xxrz/1200x600/394/51/a5/51a549f9eed77fe9640f61a2a468c160/51a549f9eed77fe9640f61a2a468c160.jpg',
         description: 'Recounts the story of fledgling writer Samuel Liston and his experiences with Floyd Deveraux, the enigmatic, middle-aged father of two who enlists Samuel to write his biography',
         trailer_link: 'https://youtu.be/uDoQ2qzO8Rw',
-        Id: 9,
+        Id: '9',
     },
     {
         name: 'Uncharted',
@@ -77,7 +77,7 @@ const MovieDB = [
         background_img: 'https://img.hdtoday.tv/xxrz/1200x600/394/06/e2/06e2115753f0266f004846b6daee6cde/06e2115753f0266f004846b6daee6cde.jpg',
         description: "A young street-smart, Nathan Drake and his wisecracking partner Victor “Sully” Sullivan embark on a dangerous pursuit of “the greatest treasure never found” while also tracking clues that may lead to Nathan’s long-lost brother.",
         trailer_link: 'https://youtu.be/4wCH1K-ckZw',
-        Id: 10,
+        Id: '10',
     },
     {
         name: 'Desperate Riders',
@@ -85,7 +85,7 @@ const MovieDB = [
         background_img: 'https://img.hdtoday.tv/xxrz/1200x600/394/75/53/7553def7359cb1647608920de33d6cfb/7553def7359cb1647608920de33d6cfb.jpg',
         description: "After Kansas Red rescues young Billy from a card-game shootout, the boy asks Red for help protecting his family from the outlaw Thorn, whos's just kidnapped Billy's mother, Carol. As Red and Billy ride off to rescue Carol, they run into beautiful, tough-as-nails Leslie, who’s managed to escape Thorn’s men. The three race to stop Thorn’s wedding to Carol with guns a-blazing - but does she want to be rescued?",
         trailer_link: 'https://youtu.be/AAwn9GqBiSY',
-        Id: 11,
+        Id: '11',
     },
     {
         name: 'The Matrix Resurrections',
@@ -93,7 +93,7 @@ const MovieDB = [
         background_img: 'https://img.hdtoday.tv/xxrz/1200x600/394/e2/02/e2027fa36695e25cdd1a8df3f226e3c9/e2027fa36695e25cdd1a8df3f226e3c9.jpg',
         description: 'The fourth installment in The Matrix franchise.',
         trailer_link: 'https://youtu.be/GlDr6aKBtFg',
-        Id: 12,
+        Id: '12',
     },
     {
         name: 'Eternals',
@@ -101,7 +101,7 @@ const MovieDB = [
         background_img: 'https://img.hdtoday.tv/xxrz/1200x600/394/36/d8/36d8368ea881ece528bf79e06e113c12/36d8368ea881ece528bf79e06e113c12.jpg',
         description: "The Eternals are a team of ancient aliens who have been living on Earth in secret for thousands of years. When an unexpected tragedy forces them out of the shadows, they are forced to reunite against mankind’s most ancient enemy, the Deviants.",
         trailer_link: 'https://youtu.be/0WVDKZJkGlY',
-        Id: 13,
+        Id: '13',
     },
     {
         name: 'Ghostbusters: Afterlife',
@@ -109,7 +109,7 @@ const MovieDB = [
         background_img: 'https://img.hdtoday.tv/xxrz/1200x600/394/bd/7f/bd7ff844bff49226e9d7072db6aabf46/bd7ff844bff49226e9d7072db6aabf46.jpg',
         description: 'When a single mom and her two kids arrive in a small town, they begin to discover their connection to the original Ghostbusters and the secret legacy their grandfather left behind.',
         trailer_link: 'https://youtu.be/lnKmAVLC3jU',
-        Id: 14,
+        Id: '14',
     },
     {
         name: 'House of Gucci',
@@ -117,7 +117,7 @@ const MovieDB = [
         background_img: 'https://img.hdtoday.tv/xxrz/1200x600/394/0c/60/0c60d6ecda577b87c44320df4b1a8a0b/0c60d6ecda577b87c44320df4b1a8a0b.jpg',
         description: 'The true story of how Patrizia Reggiani plotted to kill her husband Maurizio Gucci, the grandson of renowned fashion designer Guccio Gucci',
         trailer_link: 'https://youtu.be/yCNn1Q4_vys',
-        Id: 15,
+        Id: '15',
     }
 ]
 
