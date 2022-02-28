@@ -31,7 +31,7 @@ const CreatorsPage = () => {
                         <a href='https://www.instagram.com/_paritosh.jha_/'>
                             <div className=' w-auto h-max rounded-xl bg-[#e43e54] shadow-xl p-10 flex justify-center items-center flex-col mt-5 md:mt-0' id='parent'>
                                 <img src={require('../assets/creators/parry.jpg')} className='rounded-[50%] aspect-square w-1/2' alt=''/>
-                                <p className='text-[#ffe7e7] mt-10 text-3xl md:text-2xl font-bold'>Paritosh Kumar Jha</p>
+                                <p className='text-[#ffe7e7] mt-10 text-3xl md:text-2xl xl:text-3xl font-bold'>Paritosh Kumar Jha</p>
                             </div>
                         </a>
                     </div>
