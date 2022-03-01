@@ -44,7 +44,7 @@ export default function Catagory() {
                 <Link to='/explore' data-aos='fade-up'>
                     <div className="w-80 h-32 bg-cover bg-scifi bg-center rounded-md xl:w-96 xl:hover:scale-y-110 xl:hover:duration-300 xl:hover:ease-in-out">
                         <div className=' bg-opacity-30 bg-black w-full h-full flex'>
-                            <h1 className='text-[#83a0dd] text-right w-full font-bold self-end text-3xl m-5 '>Sci-Fi</h1>
+                            <h1 className='text-[#bbd1ff] text-right w-full font-bold self-end text-3xl m-5 '>Sci-Fi</h1>
                         </div>
                     </div>
                 </Link>
