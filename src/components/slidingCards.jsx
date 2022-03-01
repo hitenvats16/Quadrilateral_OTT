@@ -24,9 +24,7 @@ const SlidingCards = () => {
                         Lörem ipsum sabel tina pobengen pergraf. Polynat yk. Fåment relig till gåtåg. Pokan ted innan oktiga sarar.
                         Kanat dialigt köjibel semidiktisk. Prer egongen såväl som repipons Viola Söderberg. Fas trifådoligt.
                     </p>
-                    <button className='my-3 bg-[#d7bef1] py-1 px-3 rounded-md md:text-xl md:my-5'>
-                        Watch Now
-                    </button>
+                    <button className='my-3 bg-[#d7bef1] py-1 px-3 rounded-md md:text-xl md:my-5'>Watch Now</button>
                 </div>
             </SwiperSlide>
             <SwiperSlide className='w-full h-full bg-pic3 bg-center'>
