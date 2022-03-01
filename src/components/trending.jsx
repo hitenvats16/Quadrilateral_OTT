@@ -1,7 +1,7 @@
 import "../index.css";
 import MovieCard from "./movieCard";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { EffectCards } from "swiper";
+import { EffectCards, Autoplay } from "swiper";
 import "swiper/css";
 import "swiper/css/effect-cards";
 import MovieDB from "../movieDB";
@@ -27,8 +27,9 @@ const Trending = () => {
           <Swiper
             effect={"cards"}
             grabCursor={true}
-            modules={[EffectCards]}
-            className="w-2/3 h-max flex justify-center items-center xl:w-1/2 md:translate-x-1/4"
+            modules={[EffectCards,Autoplay]}
+            className="w-2/3 h-max flex xl:w-1/2 md:translate-x-1/4"
+            autoplay={{ delay: 2500, disableOnInteraction: false }}
           >
             <SwiperSlide>
               <Link to={`/${MovieDB[0].Id}`}>
@@ -36,7 +37,7 @@ const Trending = () => {
               </Link>
             </SwiperSlide>
             <SwiperSlide>
-              <Link to={`/${MovieDB[7].Id}`}>
+              <Link to={`/${MovieDB[1].Id}`}>
                 <MovieCard poster={MovieDB[7].poster_link} />
               </Link>
             </SwiperSlide>
@@ -63,6 +64,46 @@ const Trending = () => {
             <SwiperSlide>
               <Link to={`/${MovieDB[6].Id}`}>
                 <MovieCard poster={MovieDB[6].poster_link} />
+              </Link>
+            </SwiperSlide>
+            <SwiperSlide>
+              <Link to={`/${MovieDB[7].Id}`}>
+                <MovieCard poster={MovieDB[7].poster_link} />
+              </Link>
+            </SwiperSlide>
+            <SwiperSlide>
+              <Link to={`/${MovieDB[8].Id}`}>
+                <MovieCard poster={MovieDB[8].poster_link} />
+              </Link>
+            </SwiperSlide>
+            <SwiperSlide>
+              <Link to={`/${MovieDB[9].Id}`}>
+                <MovieCard poster={MovieDB[9].poster_link} />
+              </Link>
+            </SwiperSlide>
+            <SwiperSlide>
+              <Link to={`/${MovieDB[10].Id}`}>
+                <MovieCard poster={MovieDB[10].poster_link} />
+              </Link>
+            </SwiperSlide>
+            <SwiperSlide>
+              <Link to={`/${MovieDB[11].Id}`}>
+                <MovieCard poster={MovieDB[11].poster_link} />
+              </Link>
+            </SwiperSlide>
+            <SwiperSlide>
+              <Link to={`/${MovieDB[12].Id}`}>
+                <MovieCard poster={MovieDB[12].poster_link} />
+              </Link>
+            </SwiperSlide>
+            <SwiperSlide>
+              <Link to={`/${MovieDB[13].Id}`}>
+                <MovieCard poster={MovieDB[13].poster_link} />
+              </Link>
+            </SwiperSlide>
+            <SwiperSlide>
+              <Link to={`/${MovieDB[14].Id}`}>
+                <MovieCard poster={MovieDB[14].poster_link} />
               </Link>
             </SwiperSlide>
           </Swiper>
