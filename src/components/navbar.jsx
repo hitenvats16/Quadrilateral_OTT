@@ -31,7 +31,7 @@ const NavBar = () => {
                 </div>
                 <div className='flex items-center justify-end w-max h-full'>
                     <div className='py-1.5 border-b mx-5 border-[#9ca3af] hidden justify-between lg:flex'>
-                        <input placeholder='What you want?' className='appearance-none bg-transparent outline-none text-white' />
+                        <input placeholder='Search' className='appearance-none bg-transparent outline-none text-white' />
                         <BiSearch color='#9ca3af' size={30} />
                     </div>
                     <Link to='/sign'>
