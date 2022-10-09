@@ -3,8 +3,8 @@ import Btn from './button';
 
 const Originals = () => {
     return (
-        <div className='w-full justify-center flex lg:px-80 lg:py-10'>
-            <div className='w-full bg-cover p-2 md:p-4 lg:bg-[#0c0c0c] lg:flex-row lg:flex lg:justify-evenly lg:w-full lg:rounded-md lg:p-16'>
+        <div className='w-full justify-center flex lg:items-center lg:justify-center'>
+            <div className='w-full bg-cover p-2 md:p-4 lg:bg-[#0c0c0c] lg:flex-row lg:flex lg:justify-evenly lg:w-4/5 lg:rounded-md lg:p-16'>
                 <div className='w-full h-full m-2 p-4 backdrop-blur-md rounded-md md:p-8 '>
                     <img src={require('../assets/originLogo.png')} className='w-32 mb-10 lg:w-64' alt='' />
                     <h1 className='text-[#8236d4] text-xl my-2 font-bold lg:text-5xl tracking-wide lg:mb-5'>LA LA LAND</h1>
